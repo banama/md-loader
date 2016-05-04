@@ -1,0 +1,30 @@
+{
+  "name": "md-loader",
+  "version": "0.1.0",
+  "description": "The vdoc md-loader ",
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "^0.2.14",
+    "html-entities": "^1.2.0",
+    "marked": "^0.3.5",
+    "strip-indent": "^2.0.0",
+    "object-assign": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banama/md-loader.git"
+  },
+  "keywords": [
+    "Vdoc"
+  ],
+  "author": "banama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/banama/md-loader/issues"
+  },
+  "homepage": "https://github.com/banama/md-loader#readme"
+}
