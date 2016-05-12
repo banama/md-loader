@@ -16,6 +16,9 @@ marked.Renderer.prototype.code = function(code, lang, escaped) {
             code = out;
         }
     }
+    else{
+        escaped = false
+    }
     return escaped ? code : escape(code, true)
 };
 
@@ -28,9 +31,9 @@ module.exports = function (markdown) {
         renderer: new marked.Renderer(),
         gfm: true,
         tables: true,
-        breaks: true,
+        breaks: false,
         pedantic: false,
-        sanitize: true,
+        sanitize: false,
         smartLists: true,
         smartypants: false,
         highlight: function (code, lang) {
